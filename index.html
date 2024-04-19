@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Tốt Nghiệp Hust</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.5.0/balloon.min.css">
+<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+<link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+<link rel="icon" href="logohust.png" type="image/x-icon">
+<link rel="stylesheet" href="css/style.css">
+<meta name="theme-color" content="#F26B38">
+</head>
+<body>
+  <div class="firework"></div>
+  <div class="firework"></div>
+  <div class="firework"></div>
+  <div class="firework"></div>
+  <audio id="myAudio">
+    <source src="nhac2.mp3" type="audio/mpeg">
+  </audio>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="card">
+<div id="card-inside">
+<div class="wrap wishesFont">
+  <img src="mutn.png" alt="hustbk" style="width: 230px; height: 160px;margin-left: 90px;">
+      <p id="fontmoi">Thân mời bạn tham dự</p>
+      <p id="fontmoi2">Lễ Tốt Nghiệp</p>
+      <p id="fontmoi3">Phan Tiến Mạnh</p>
+      <p id="fontmoi4">Chủ nhật, ngày 12/05/2024|14:30 chiều</p>
+      <p id="fontmoi5">Tại hội trường C2 - Đại học Bách khoa Hà Nội</p>
+      <p id="fontmoi7"></p>
+      <p id="fontmoi6">Mong bạn bớt chút thời gian đến chung vui với mình nha !!</p>
+      
+  
+</div>
+</div>
+<div id="card-front">
+<div class="wrap">
+<h1>Thiệp Mời Tốt Nghiệp</h1>
+<div class="cake_and_velas">
+<div class="velas">
+<div class="fuego"></div>
+<div class="fuego"></div>
+<div class="fuego"></div>
+<div class="fuego"></div>
+<div class="fuego"></div>
+<div class="fuego"></div>
+<div class="fuego"></div>
+</div>
+
+<img src="totnghip_preview_rev_1.png" alt="hustbk" style="width: 300px; height: 230px;margin-left: 50px;">
+
+</div>
+</div>
+<button onclick="togglePlayPause()" id="open" data-balloon="Bấm vào đây để mở thiệp" data-balloon-length="medium" data-balloon-pos="left" data-balloon-visible>&gt;</button>
+<button id="close"  data-balloon-length="medium" data-balloon-pos="left" data-balloon-visible>&lt;</button>
+<div class="card-front_inside">
+<br> <br> <br>
+<div class="polaroid">
+<div class="img" style="background-image: url('1234567.jpg')"></div>
+
+</div>
+<div class="shadow"></div>
+</div>
+</div>
+<script  src="js/index.js"></script>
+<script>
+  var audio = document.getElementById("myAudio");
+  var playButton = document.getElementById("playButton");
+
+  function togglePlayPause() {
+    if (audio.paused) {
+      audio.play();
+      playButton.style.display = "none";
+    } else {
+      audio.pause();
+      playButton.style.display = "inline-block";
+    }
+  }
+</script>
+</body>
+</html>
